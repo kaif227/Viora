@@ -16,9 +16,10 @@ import ChatIcon from "@mui/icons-material/Chat";
 
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import servers from "../environment.js";
 
 // const server_url = "http://localhost:8000";
-const server_url = import.meta.env.VITE_SERVER_URL;
+const server_url = servers;
 
 var connections = {};
 
