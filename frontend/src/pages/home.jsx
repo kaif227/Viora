@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useContext } from 'react';
 import { AuthContext } from '../context/authConext.jsx';
 import withAuth from '../utils/withAuth.jsx';
-import "../app.css"
+import "../App.css"
 import {IconButton} from '@mui/material';
 import RestoreIcon from '@mui/icons-material/Restore';
 import {Button} from '@mui/material';
