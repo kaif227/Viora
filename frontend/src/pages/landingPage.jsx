@@ -10,7 +10,7 @@ function LandingPage() {
                     <h2>Viora video call</h2>
                     </div>
                 <div className="navList">
-                    <p onClick={()=>{
+                    <p className="guest" onClick={()=>{
                         router("/guest")
                     }}>Join as Guest</p>
                     <p onClick={()=>{
